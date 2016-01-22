@@ -7,17 +7,24 @@ var data = {
     professionalExperience: [
 	{
 	    start: new Date("2016-05-30"),
-      end: new Date("2016-08-05"),
+        end: new Date("2016-08-05"),
 	    title: "Software Engineer",
 	    role: "Intern",
 	    company: "HackNY",
 	    location: "New York City, NY",
 	    summary: [
 		"Member of the Class of 2016 <a href='http://hackny.org/a/fellows/'>HackNY Fellowship</a>.",
-		"Interned at ______ for 10 weeks as a Software Engineer.",
-		"Worked on projects including ________________.",
-		"Learned _________________.",
-		"Used the following technologies: __________________.",
+	    ],
+	},
+    {
+	    start: new Date("2013-08-01"),
+        end: new Date("2014-07-07"),
+	    title: "Associate",
+	    role: "Cashier",
+	    company: "The Medicine Shoppe",
+	    location: "Downingtown, PA",
+	    summary: [
+		"Pulled and stocked medicine, counted pills, helped customers, operated the register, and answered phones.",
 	    ],
 	},
     ],
