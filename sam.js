@@ -7,6 +7,7 @@ var data = {
     professionalExperience: [
 	{
 	    start: new Date("2016-05-30"),
+      end: new Date("2016-08-05"),
 	    title: "Software Engineer",
 	    role: "Intern",
 	    company: "HackNY",
