@@ -156,3 +156,10 @@ body {
     cursor: pointer;
     border-left: 5pt solid white;
 }
+
+@media only screen and (max-width: 750px) {
+    .fa {
+        display: none;
+    }
+    
+}
