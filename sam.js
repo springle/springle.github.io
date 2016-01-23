@@ -18,7 +18,7 @@ var data = {
 	},
     {
 	    start: new Date("2013-08-01"),
-        end: new Date("2014-07-07"),
+      end: new Date("2014-07-07"),
 	    title: "Associate",
 	    role: "Cashier",
 	    company: "The Medicine Shoppe",
@@ -27,6 +27,17 @@ var data = {
 		"Pulled and stocked medicine, counted pills, helped customers, operated the register, and answered phones.",
 	    ],
 	},
+    {
+      start: new Date("2016-01-13"),
+      end: new Date("2016-05-13"),
+      title: "Lab Assistant",
+      role: "",
+      company: "CS61A",
+      location: "Berkeley, CA",
+      summary: [
+    "Help students figure out difficult problems on labs/homework, answer questions, assist course staff.",
+      ],
+  },
     ],
     degrees: [
 	{
@@ -48,11 +59,9 @@ var data = {
     ],
     academicExperience: [
 	{
-	    start: new Date("2016-01-19"),
-	    end: new Date("2016-05-15"),
-	    title: "CS61A Lab Assistant",
-	    institution: "The University of California, Berkeley",
-	    location: "Berkeley, CA",
+	    start: new Date("2015-12-26"),
+	    end: new Date("2016-01-15"),
+	    title: "<a href='https://github.com/joechip504/sc2-barcode-scanner' target='_blank'>SC2 Barcode Scanner</a>",
 	},
     ],
 };

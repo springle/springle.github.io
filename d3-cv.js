@@ -181,11 +181,7 @@ var academicExperienceDescription = function (config, cv) {
   return function (d) {
     var summary = div(
       'cv-description-academic-experience-summary',
-      span('cv-description-academic-experience-title', d.title) +
-        ' at ' +
-        span('cv-description-academic-experience-institution', d.institution) +
-        ' in ' +
-        span('cv-description-academic-experience-location', d.location)
+      span('cv-description-academic-experience-title', d.title)
     );
 
     var dates = div(
@@ -208,7 +204,7 @@ var drawAcademicExperience = function (config, cv) {
   academicExperience
     .append('div')
     .attr('class', 'cv-description-section-header')
-    .text('Academic Experience');
+    .text('Projects');
 
   academicExperience.selectAll()
     .data(cv.academicExperience)
