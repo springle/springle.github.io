@@ -1,20 +1,20 @@
 body {
-    color: #2E4B7D;
+    color: #2c3e50;
     margin: .5em;
 }
 
 #cv-container a {
-    color: #2E4B7D;
+    color: #2c3e50;
     text-decoration: none;
 }
 
 #cv-container a:hover {
-    color: #24766B;
+    color: #F05F1E;
 }
 
 #cv-container .axis path, .axis line {
     fill: none;
-    stroke: #2E4B7D;
+    stroke: #2c3e50;
     shape-rendering: crispEdges;
 }
 
@@ -46,17 +46,17 @@ body {
     position: fixed;
     bottom: 0;
     overflow: scroll;
-    border-top: 2pt solid #2E4B7D;
+    border-top: 2pt solid #2c3e50;
 }
 
 .cv-timeline-professional-experience {
-    fill: #24766B;
+    fill: #F05F1E;
     stroke: #fff;
     shape-rendering: crispEdges;
 }
 
 .cv-timeline-academic-experience {
-    fill: #2E4B7D;
+    fill: #2c3e50;
     stroke: #fff;
     shape-rendering: crispEdges;
 }
@@ -68,7 +68,7 @@ body {
     font-weight: 100;
     text-transform: uppercase;
     font-size: 20pt;
-    color: #24766B;
+    color: #F05F1E;
 }
 
 .cv-description-header-name {
@@ -76,7 +76,7 @@ body {
     font-weight: 100;
     font-size: 48pt;
     text-transform: uppercase;
-    color: #24766B;
+    color: #F05F1E;
 }
 
 .cv-description-header-summary {
