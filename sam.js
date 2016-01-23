@@ -13,7 +13,7 @@ var data = {
 	    company: "HackNY",
 	    location: "New York City, NY",
 	    summary: [
-		"Member of the Class of 2016 <a href='http://hackny.org/a/fellows/'>HackNY Fellowship</a>.",
+		"Member of the Class of 2016 HackNY Fellowship.",
 	    ],
 	},
     {

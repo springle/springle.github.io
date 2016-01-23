@@ -271,7 +271,7 @@ var scrollTimelineTween = function (config, original, offset) {
 var scrollToTimelineEntry = function (config, cv) {
   return function (d) {
     var timeline = findTimelineEntry(config, d);
-    d3.select(timeline).style("fill", '#f1c40f');
+    d3.select(timeline).style("fill", '#24766B');
 
     var rightOffset = timeline.getBoundingClientRect().right;
     var viewWidth = window.innerWidth || document.documentElement.clientWidth;
@@ -325,7 +325,7 @@ var highlightEntry = function (config, cv) {
   return function (d) {
 
     var timeline = findTimelineEntry(config, d);
-    d3.select(timeline).style("fill", '#f1c40f');
+    d3.select(timeline).style("fill", '#24766B');
 
     var descriptionEntry = findDescription(config, d);
     d3.select(descriptionEntry)
@@ -341,9 +341,9 @@ var unhighlightDescriptionEntry = function (config, cv) {
     var timelineEntry = findTimelineEntry(config, d);
     var timelineEntryClass = d3.select(timelineEntry).attr('class');
     if (timelineEntryClass === config.timelineProfessionalExperienceClass) {
-      d3.select(timelineEntry).style('fill', '#27ae60');
+      d3.select(timelineEntry).style('fill', '#24766B');
     } else {
-      d3.select(timelineEntry).style('fill', '#2c3e50');
+      d3.select(timelineEntry).style('fill', '#2E4B7D');
     }
   };
 };
@@ -524,10 +524,10 @@ drawCV = function (cv) {
     timelineWidth: 3000,
     timelineHeight: 90,
     timelineProfessionalExperienceClass: 'cv-timeline-professional-experience',
-    defaultColor: '#2c3e50',
+    defaultColor: '#2E4B7D',
     defaultBackground: '#fff',
     highlightColor: '#fff',
-    highlightBackground: '#f1c40f',
+    highlightBackground: '#24766B',
     containerId: 'cv-container',
     descriptionId: 'cv-description',
     timelineContainerId: 'cv-timeline-container',
