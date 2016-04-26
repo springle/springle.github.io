@@ -10,7 +10,7 @@ var data = {
         end: new Date("2016-08-05"),
 	    title: "Software Engineer",
 	    role: "Intern",
-	    company: "HackNY",
+	    company: "SkillShare",
 	    location: "New York City, NY",
 	    summary: [
 		"Member of the Class of 2016 HackNY Fellowship.",
