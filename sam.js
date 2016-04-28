@@ -74,9 +74,9 @@ var data = {
 	    title: "<a href='https://github.com/springle/PythonTweetMatch' target='_blank'>Tweet Match</a>",
 	},
   {
-        start: new Date("2015-04-01"),
-        end: new Date("2015-05-30"),
-        title:"<a href='http://sammaps.herokuapp.com' target='_blank'>Sam Maps</a>",
+        start: new Date("2016-04-01"),
+        end: new Date("2016-05-30"),
+        title: "<a href='http://sammaps.herokuapp.com' target='_blank'>Sam Maps</a>",
     },
     ],
 };
