@@ -1,6 +1,6 @@
 var data = {
     name: "Sam Pringle",
-    summary: "19 year-old computer science student.",
+    summary: "20 year-old computer science student.",
     email: "sampringle@berkeley.edu",
     github: "https://github.com/springle",
     linkedin: "https://www.linkedin.com/in/sampringle",
@@ -9,11 +9,11 @@ var data = {
 	    start: new Date("2016-05-30"),
         end: new Date("2016-08-05"),
 	    title: "Software Engineer",
-	    role: "Intern",
+	    role: "DevOps",
 	    company: "SkillShare",
 	    location: "New York City, NY",
 	    summary: [
-		"Member of the Class of 2016 HackNY Fellowship.",
+		"My primary focus at Skillshare has been to help containerize our application and rebuild our infrastructure using Micro-service architecture. During my time here, I’ve gained experience with Docker, Kubernetes, Networking, PHP, Ruby, Backbone JS, Bash, Git, AWS, NginX, Yii, and MySQL.",
 	    ],
 	},
     {
