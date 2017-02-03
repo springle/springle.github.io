@@ -1,6 +1,7 @@
 # Work
 
 2017: Mesosphere
+
 2016: Skillshare
 
 # Education
@@ -10,4 +11,5 @@
 # Personal
 
 2015-Present: Berkeley, CA
+
 1996-2015: Downingtown, PA
